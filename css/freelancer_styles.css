@@ -196,25 +196,238 @@ body > #about {
 
 #about > .dowload_bottom {
   display: inline-block;
-  align-items: center;
-  width: 60px;
+  background-color: #18bc9c;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  margin-left: 580px;
+  margin-bottom: 100px;
+  width: 200px;
   height: 30px;
-  border: 2px;
-  border-color: #fff;
+  text-align: center;
+  padding-left: 7px;
+  padding-top: 15px;
+  padding-bottom: 0px;
 }
 
 #about > .dowload_bottom > a {
   text-decoration: none;
+  padding-right: 5px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 18px;
   color: #fff;
 }
 
+body > #contact_me {
+  float: left;
+  margin: 0px;
+}
 
+#contact_me > h1 {
+  margin-left: 550px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 45px;
+  font-weight: 800;
+  color: #000;
+}
 
+#contact_me > hr {
+  position: static;
+  background: #2c3e50;
+  margin-left: 72%;
+  height: 5px;
+  border-radius: 100px;
+  border: none;
+}
 
+#contact_me > .formulary {
+  float: right;
+  margin-left: 35%;
+  margin-top: 10%
+}
 
+label {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+input[type=text] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid lightgrey;
+}
+
+#contact_me > .send_bottom {
+  float: right;
+  background-color: #18bc9c;
+  border-radius: 5px;
+  margin-left: 250px;
+  margin-bottom: 100px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  padding-left: 7px;
+  padding-top: 15px;
+  padding-bottom: 0px;
+}
+
+#contact_me > .send_bottom > a {
+  text-decoration: none;
+  padding-right: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+}
+
+footer {
+  float: left;
+  width: 100%;
+  margin: 0;
+  background: #2c3e50;
+}
+
+footer > #only_section {
+  margin-left: 14%;
+}
+
+footer > #only_section > .location, .around_the_web, .about_freelancer {
+  float: left;
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 300px;
+  height: 216px;
+  color: white;
+}
+
+#only_section > .location > h2 {
+  text-align: center;
+  padding-bottom: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+#only_section > .location > p {
+  text-align: center;
+  margin-bottom: 0px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+#only_section > .around_the_web > h2 {
+  text-align: center;
+  padding-bottom: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.around_the_web > .social_networks {
+  margin-left: 27px;
+}
+
+.around_the_web > .social_networks > a > .fa-facebook {
+  border: 2px solid #fff;
+  border-radius: 30px;
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.around_the_web > .social_networks > a > .fa-google-plus {
+  border: 2px solid #fff;
+  border-radius: 30px;
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  padding-left: 1px;
+  padding-top: 10px;
+}
+
+.around_the_web > .social_networks > a > .fa-twitter {
+  border: 2px solid #fff;
+  border-radius: 30px;
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.around_the_web > .social_networks > a > .fa-linkedin {
+  border: 2px solid #fff;
+  border-radius: 30px;
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.around_the_web > .social_networks > a > .fa-dribbble {
+  border: 2px solid #fff;
+  border-radius: 30px;
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  padding-top: 10px;
+}
+
+#only_section > .about_freelancer > h2 {
+  text-align: center;
+  padding-bottom: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+#only_section > .about_freelancer > p {
+  text-align: center;
+  margin-bottom: 0px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+strong {
+  color: #18bc9c;
+}
+
+#only_section > .copyrights {
+  float: right;
+  width: 100%;
+  margin: 0;
+  background: #2c3e50;
+}
+
+#only_section > .copyrights > p {
+  display: inline-block;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
 
 
 
