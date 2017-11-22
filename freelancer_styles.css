@@ -236,7 +236,7 @@ body > #contact_me {
 #contact_me > hr {
   position: static;
   background: #2c3e50;
-  margin-left: 72%;
+  margin-left: 43%;
   height: 5px;
   border-radius: 100px;
   border: none;
@@ -244,7 +244,7 @@ body > #contact_me {
 
 #contact_me > .formulary {
   float: right;
-  margin-left: 35%;
+  margin-left: 21%;
   margin-top: 10%
 }
 
@@ -256,7 +256,7 @@ label {
 }
 
 input[type=text] {
-  width: 70%;
+  width: 60%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
@@ -265,17 +265,17 @@ input[type=text] {
 }
 
 #contact_me > .send_bottom {
-  float: right;
+  float: left;
   background-color: #18bc9c;
   border-radius: 5px;
+  margin-top: 45px;
   margin-left: 250px;
   margin-bottom: 100px;
   width: 100px;
   height: 30px;
   text-align: center;
-  padding-left: 7px;
   padding-top: 15px;
-  padding-bottom: 0px;
+  padding-bottom: 5px
 }
 
 #contact_me > .send_bottom > a {
